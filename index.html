@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meister Döner Garching - Premium Kebap & Döner</title>
-    <!-- Tailwind CSS (v4.0 Alpha/Beta veya Güncel CDN Yapısı) -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <!-- Font Awesome ve Google Fonts -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,25 +20,22 @@
 
 
     <div id="preloader" class="fixed inset-0 z-50 flex overflow-hidden pointer-events-auto">
-        <!-- Sol Kapı -->
+       
         <div id="left-door" class="w-1/2 h-full bg-[#0a0a0a] flex items-center justify-end transition-transform duration-1000 ease-in-out origin-left"></div>
         
-        <!-- Merkezdeki Logo ve Yazı İçeriği -->
+       
         <div id="loader-content" class="absolute inset-0 flex flex-col items-center justify-center z-10 transition-opacity duration-500">
             <div class="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-orange-500 shadow-2xl shadow-orange-500/20 bg-[#050505] p-4 flex items-center justify-center relative">
-                <!-- Buraya hazırladığın logonun yolunu yazıyorsun bebiş -->
+               
                 <img src="img/11.jpg" alt="Meister Döner Logo" class="w-full h-full object-contain animate-pulse">
             </div>
             <span class="text-orange-500 font-extrabold text-xs tracking-[4px] uppercase mt-4 animate-pulse">Meister Döner Lädt...</span>
         </div>
 
-        <!-- Sağ Kapı -->
+    
         <div id="right-door" class="w-1/2 h-full bg-[#0a0a0a] flex items-center justify-start transition-transform duration-1000 ease-in-out origin-right"></div>
     </div>
 
-    <!-- ========================================================================= -->
-    <!-- 2. NAVBAR (NAVİGASYON BAR)                                                -->
-    <!-- ========================================================================= -->
     <nav class="fixed top-0 left-0 right-0 z-40 bg-[#050505]/80 backdrop-blur-md border-b border-white/5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
             <a href="#" class="text-xl md:text-2xl font-black text-white tracking-tighter">
@@ -57,18 +53,14 @@
         </div>
     </nav>
 
-<!-- ========================================================================= -->
-    <!-- 3. HERO SECTION (ALEVLİ GÖRSEL ENTEGRELİ PREMIUM ALAN)                     -->
-    <!-- ========================================================================= -->
     <section class="relative min-h-screen pt-24 pb-12 flex items-center justify-center overflow-hidden bg-radial from-zinc-950 to-[#050505]">
-        <!-- Arka Plan Işık Sızıntısı (Alev Rengine Uysun Diye Turuncu/Kırmızı Efekt) -->
+    
         <div class="absolute top-1/4 right-0 w-72 h-72 bg-orange-600/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute bottom-1/4 left-0 w-72 h-72 bg-red-600/5 rounded-full blur-3xl pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 
-                <!-- Sol Taraf: Metinler ve Butonlar -->
                 <div class="lg:col-span-7 text-center lg:text-left space-y-6 order-2 lg:order-1">
                     <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-orange-500 font-bold text-xs tracking-wider uppercase">
                         <i class="fa-solid fa-fire text-red-500 animate-pulse"></i> Echter Berliner Döner in Garching
@@ -92,22 +84,19 @@
                     </div>
                 </div>
 
-                <!-- Sağ Taraf: Senin O Harika Alevli Dürüm Görselin -->
                 <div class="lg:col-span-5 flex justify-center order-1 lg:order-2">
                     <div class="relative w-72 h-96 sm:w-80 sm:h-[420px] md:w-96 md:h-[500px] group">
-                        <!-- Görselin arkasına parlama efekti (Alev hissini güçlendirir) -->
+                       
                         <div class="absolute inset-0 bg-gradient-to-t from-orange-600/30 to-transparent blur-xl rounded-2xl opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
                         
-                        <!-- Ana Görsel Kutusu -->
+                      
                         <div class="w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-orange-600/10 relative z-10 bg-zinc-900">
-                            <!-- Görsel adını projedeki uzantısına göre (durum.jpg veya durum.png) değiştirebilirsin knk -->
+                       
                             <img src="img/10.jpg" alt="Meister Döner Premium" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                             
-                            <!-- Üzerine hafif karartma maskesi (Metinlerle uyum için) -->
                             <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
                         </div>
 
-                        <!-- Küçük Rozet Efekti -->
                         <div class="absolute -bottom-4 -left-4 bg-[#141414] border border-white/10 px-4 py-3 rounded-xl shadow-xl z-20 animate-bounce hidden sm:flex items-center gap-3">
                             <div class="w-8 h-8 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-500 text-sm">
                                 <i class="fa-solid fa-star"></i>
@@ -370,9 +359,6 @@
         </div>
     </footer>
 
-    <!-- ========================================================================= -->
-    <!-- SADECE KAPILARI AÇAN HAFİF ANİMASYON MOTORU                               -->
-    <!-- ========================================================================= -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const preloader = document.getElementById('preloader');
@@ -380,14 +366,11 @@
             const leftDoor = document.getElementById('left-door');
             const rightDoor = document.getElementById('right-door');
 
-            // Kapıları kusursuzca açan fonksiyon
             const openDoors = () => {
                 if(preloader.classList.contains('pointer-events-none')) return;
 
-                // Önce ortadaki logoyu yumuşakça kaybet
                 loaderContent.classList.add('opacity-0');
                 
-                // Yarım saniye sonra kapıları iki yana fırlat ve kilidi kaldır[cite: 1]
                 setTimeout(() => {
                     leftDoor.classList.add('-translate-x-full');
                     rightDoor.classList.add('translate-x-full');
@@ -396,7 +379,6 @@
                 }, 500);
             };
 
-            // Sayfa yüklendikten 1.5 saniye sonra kapılar otomatik açılsın (Süreyi isteğe göre değiştirebilirsin)
             setTimeout(openDoors, 1500);
         });
     </script>
