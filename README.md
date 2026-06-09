@@ -4,21 +4,6 @@ Welcome to **Döner Station**! This is an ultra-modern, high-converting, and pre
 
 🔗 **[Live Demo Hosted on GitHub Pages](https://merveayliz.github.io/doner/)**
 
----
-
-## 📸 Interface Preview
-
-<p align="center">
-  <!-- TODO: Drop your beautiful showcase image inside your img folder and link it here -->
-  <img src="img/desktop-preview.png" alt="Döner Station Desktop Interface" width="80%">
-</p>
-
-<p align="center">
-  <img src="img/mobile-preview.png" alt="Döner Station Mobile Interface" width="32%">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img/mobile-menu.png" alt="Döner Station Mobile Menu UI" width="32%">
-</p>
-
----
 
 ## ✨ Outstanding Core Features
 
@@ -39,3 +24,11 @@ Welcome to **Döner Station**! This is an ultra-modern, high-converting, and pre
 | **Interactivity**| `JavaScript (ES6+)` | Dynamic UI triggers, smooth page scrolling dynamics, and interactive layout components. |
 
 ---
+💻 Creative Engineering Identity
+Engineered with passion, continuous learning, and clean code principles by Ayliz Azaklı.
+
+LinkedIn: Ayliz Azaklı
+
+GitHub: @merveayliz
+
+⭐ If this digital storefront design inspired your coding journey, feel free to leave a star on this repository! Your appreciation fuels my ongoing self-learning track.
