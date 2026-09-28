@@ -22,13 +22,3 @@ Welcome to **Döner Station**! This is an ultra-modern, high-converting, and pre
 | **Structure** | `HTML5` | Strong semantic tags for stellar web accessibility & robust SEO. |
 | **Styling** | `CSS3` / `Tailwind CSS` | Ultra-fast rendering, modern custom layout properties, and pixel-perfect responsiveness. |
 | **Interactivity**| `JavaScript (ES6+)` | Dynamic UI triggers, smooth page scrolling dynamics, and interactive layout components. |
-
----
-💻 Creative Engineering Identity
-Engineered with passion, continuous learning, and clean code principles by Ayliz Azaklı.
-
-LinkedIn: Ayliz Azaklı
-
-GitHub: @merveayliz
-
-⭐ If this digital storefront design inspired your coding journey, feel free to leave a star on this repository! Your appreciation fuels my ongoing self-learning track.
